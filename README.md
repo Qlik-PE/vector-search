@@ -1,7 +1,22 @@
-
 # Qlik Vector Search Extension
 
-This package provides a Qlik Sense extension and an example Qlik Application Automation configuration (`automation.json`).
+## Description
+
+The Qlik Vector Search Extension enables advanced search capabilities within Qlik Sense by integrating with external vector search services, such as those powered by Databricks or other AI-driven backends. This extension allows users to perform semantic or similarity-based searches directly from their Qlik Sense dashboards, leveraging the power of vector embeddings and large language models.
+
+### Key Features
+- **Semantic Search**: Go beyond keyword matching by searching for data using natural language queries and retrieving results based on meaning and context.
+- **Integration with Qlik Application Automation**: Easily connect to Qlik Application Automation flows for orchestrating search requests and handling authentication, endpoints, and tokens.
+- **Customizable UI**: Provides a user-friendly input field and button for submitting search queries, with configurable captions and search parameters.
+- **Dynamic Selections**: Automatically selects and highlights relevant data in Qlik Sense apps based on the search results returned from the vector search service.
+- **Flexible Backend Support**: Works with any vector search API that returns results in a compatible format, making it adaptable to various enterprise AI and search solutions.
+
+### Typical Use Cases
+- Finding similar documents, products, or records based on a user's query.
+- Enabling natural language search in Qlik Sense dashboards.
+- Integrating AI-powered recommendations or search results into analytics workflows.
+
+For setup and installation instructions, see the sections above on installing the Qlik Application Automation and the Qlik Sense extension.
 
 ## 1. Installing the Qlik Application Automation
 
