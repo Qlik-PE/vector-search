@@ -1,0 +1,8 @@
+{
+	"name": "Vector Search",
+	"description": "Vector Search",
+	"icon": "treemap",
+	"type": "visualization",
+	"version": 2,
+	"author": "Clever Anjos (clever.anjos@qlik.com)"
+}

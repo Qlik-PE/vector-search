@@ -1,0 +1,7 @@
+<div class="rest-api-extension" qv-extension class="ng-scope">
+    <div style="margin-bottom: 5px;">Filter Expression</div>
+    <input class="lui-input" style="margin-bottom: 5px;"
+        value="{{(this.layout.props.searchExpression || 'your search')}}" />
+    <button class="lui-button Search" ng-click="search(query)">
+        {{(this.layout.props.buttonCaption || "Vector Search")}}</button>
+</div>

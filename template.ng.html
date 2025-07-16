@@ -1,0 +1,8 @@
+var template = '<div qv-extension>
+    <div style="margin-bottom: 5px;">{{(this.layout.props.Title || "Filter Expression")}}</div>
+    <input class="lui-input" ng-model="query" style="margin-bottom: 5px;"/>
+    <button class="lui-button search"  ng-click="openDialog()">
+        {{(this.layout.props.buttonCaption || "Filter")}}
+    <img class="mySpinner">
+    </button>
+</div>';
