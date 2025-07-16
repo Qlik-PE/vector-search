@@ -33,14 +33,28 @@ For setup and installation instructions, see the sections above on installing th
 8. Save and activate the automation as needed.
    
 
+
 ## 2. Installing the Qlik Sense Extension
 
+### Qlik Sense Enterprise (QMC) or Qlik Sense Desktop
 1. Download the extension files to your local machine.
 2. Zip the contents of the extension folder (all files, including `qlik-vector-search.js`, `qlik-vector-search.qext`, etc.).
    - Do **not** zip the parent folder itself, only the files inside it.
 3. In Qlik Sense:
    - Go to the **Qlik Management Console (QMC)** if you are using Qlik Sense Enterprise, or **Dev Hub > Extensions** if you are using Qlik Sense Desktop.
    - Click **Import** (QMC) or **Add new extension** (Dev Hub).
+   - Upload the zipped extension package.
+4. The extension will now be available in the assets panel when editing an app.
+5. Drag and drop the extension onto a sheet and configure its properties as needed.
+
+### Qlik Cloud
+1. Download the extension files to your local machine.
+2. Zip the contents of the extension folder (all files, including `qlik-vector-search.js`, `qlik-vector-search.qext`, etc.).
+   - Do **not** zip the parent folder itself, only the files inside it.
+3. In Qlik Cloud:
+   - Go to the **Console**.
+   - Select **Extensions** from the menu.
+   - Click **Add** or **Upload Extension**.
    - Upload the zipped extension package.
 4. The extension will now be available in the assets panel when editing an app.
 5. Drag and drop the extension onto a sheet and configure its properties as needed.
