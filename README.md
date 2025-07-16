@@ -2,6 +2,9 @@
 
 ## Description
 
+
+> **Note:** This extension is not an official or supported Qlik product. It is provided as-is, without warranty, and is intended for demonstration or custom solution purposes only.
+
 The Qlik Vector Search Extension enables advanced search capabilities within Qlik Sense by integrating with external vector search services, such as those powered by Databricks or other AI-driven backends. This extension allows users to perform semantic or similarity-based searches directly from their Qlik Sense dashboards, leveraging the power of vector embeddings and large language models.
 
 ### Key Features
